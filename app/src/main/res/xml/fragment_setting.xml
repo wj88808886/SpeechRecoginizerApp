@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/setting_lang">
+
+        <ListPreference
+            android:key="@string/setting_origin_key"
+            android:entries="@array/language_names"
+            android:summary="@string/setting_origin_lang_summary"
+            android:entryValues="@array/language_values"
+            android:title="@string/setting_origin_lang_title">
+        </ListPreference>
+
+        <ListPreference
+            android:key="@string/setting_goal_key"
+            android:entries="@array/language_names"
+            android:summary="@string/setting_goal_lang_summary"
+            android:entryValues="@array/language_values"
+            android:title="@string/setting_goal_lang_title">
+        </ListPreference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

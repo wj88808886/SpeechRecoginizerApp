@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Translator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="setting_lang">Language settings</string>
+
+    <string name="setting_origin_key">original</string>
+    <string name="setting_origin_lang_title">Original language</string>
+    <string name="setting_origin_lang_summary">Set the original language</string>
+
+    <string name="setting_goal_key">goal</string>
+    <string name="setting_goal_lang_title">Goal language</string>
+    <string name="setting_goal_lang_summary">Set the goal language</string>
+
+    <string name="setting_origin_default">en</string>
+    <string name="setting_goal_default">zh-CN</string>
+
+</resources>
